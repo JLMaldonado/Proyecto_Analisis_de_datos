@@ -35,6 +35,6 @@ def Limpieza_de_datos(df):
                bins= [0,12,20,40,60,100] , 
                labels=["niño","adolecente","adulto joven","adulto","adulto mayor"]    )
 
-    df.to_csv("Datos_categorizados_por_edad.cvs" ,index=False)
+    df.to_csv("Datos_categorizados_por_edades.csv" ,index=False)
     return df
-c=Limpieza_de_datos(df)
+Limpieza_de_datos(df)

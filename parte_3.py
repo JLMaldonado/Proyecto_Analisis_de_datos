@@ -19,7 +19,7 @@ print(verificar)
 #  (usando agregaciones en Pandas).
 hombre_fumadores=df[(df["is_male"] == True)]
 mujeres_fumadores=df[(df["is_male"] == False)]
-
+a
 hombre_fumadores=hombre_fumadores[(hombre_fumadores["is_smoker"] == True)] 
 hombre_fumadores=hombre_fumadores["is_smoker"].count()
 
